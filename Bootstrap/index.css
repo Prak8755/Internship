@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.nav-link:hover{
+color: rgb(227, 10, 151)  !important;;
+}
+.navBtn{
+    color:white !important;
+}
+.bg-section{
+    background-image: url('https://rainbowit.net/html/inbio/assets/images/bg/bg-image-1.jpg');
+    background-size:cover;
+    height: 100vh;
+    width:100vw
+}
+.about,.skills,.features-section,.custom,.service,.client,.pricing,.blog,.formSection{
+    background-color: #212428 !important;
+
+}
+.cardShow{
+   transform:scale(100%);
+    transition:transform 1s;
+}
+.cardShow:hover{
+    cursor: pointer;
+    transform:scale(115%);
+}
+.carousel-section{
+    padding-left: 150px;
+    padding-right:150px;
+}
+
+.card>img{
+transform: scaleX(100%);
+transition: transform 1s;
+}
+.card>img:hover{
+transform: scaleX(110%);
+cursor: pointer;
+}
+
+
+@media only screen and (min-width:768px){
+    .carouselBtns{
+position:static;
+
+    }
+}

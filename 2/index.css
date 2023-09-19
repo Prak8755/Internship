@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.header{
+   padding-top:20px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar{
+    margin: auto;
+    height: 200px;
+    width: 90%;
+    display: flex;
+gap:10%;
+}
+/* dummy */
+.one{
+    height:155px;
+    width: 10px;
+  border:1px solid gray;
+  background:white;
+  transform: rotate(45deg);
+  position:absolute;
+  top:2.5%;
+  left:30%;
+  border-radius: 0.6rem;
+  border-right:none;
+  border-bottom: none;
+  border-top: none;
+}
+.course-cat{
+display: flex;
+gap:10px;
+}
+.navLeft>h1{
+    margin-top:1rem;
+    font-size: 2rem;
+}
+.navLeft>button{
+    background-color: #0478e2;
+    color:white;
+    padding: 0.5rem 1.6rem;
+    border: none;
+    margin-top: 20px;
+    border-radius: 0.2rem;
+
+}
+.btn-light{
+background-color: lightblue;
+padding: 0.2rem 0.5rem;
+border:none;
+border-radius: 0.2rem;
+}
+.btn-dark{
+    background-color: #0478e2;
+    padding: 0.2rem 0.5rem;
+    border:none;
+    border-radius: 0.2rem;
+    ;
+}
+.navCards{
+display: flex;
+gap:20px;
+}
+
+.card{
+    border-radius: 0.5rem;
+display: flex;
+align-items: center;
+padding: 10px;
+flex-direction: column;
+width: 150px;
+gap:10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card>h1{
+    font-size: 0.8rem;
+    font-style: bold;
+}
+.card>p{
+    color:gray
+}
+.card>button{
+    padding: 0.3rem 1rem;
+    background-color:#0478e2 ;
+    color:white;
+    border: none;
+}
+.cardLogo-active{  
+height: 50px;
+width: 50px;
+color:white;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #0478e2;
+    border-radius:100%;
+}
+.cardLogo{  
+    height: 50px;
+    width: 50px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+        border-radius:100%;
+    }
+
+.hero-section{
+    margin: auto;
+    margin-top:60px;
+    width: 90%;
+    display: flex;
+    gap:5%;
+}
+.hero-left{
+    width: 50%;
+    position: relative;
+    display: flex;
+}
+.hero-right{
+    width: 50%;
+}
+.image1{
+    padding: 0.5rem;
+    background-color: white;
+    width: 70%;
+}
+.image2{
+    border-radius: 1rem;
+    height: 150px;
+    width:20% ;
+    background-image:url('https://images.inc.com/uploaded_files/image/1920x1080/getty_501062623_20001333200092801_80323.jpg') ;
+    background-size: cover;
+}
+.hero-image2{
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:2%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.hero-image2>p{
+    font-size: 0.6rem;
+    
+}
+.hero-image2>h1{
+    color:white;
+    font-size: 2rem;
+}
+
+.hero-image2-heading{
+    color:#0478e2;
+    font-weight: 600;
+    font-style: bold;
+}
+.hero-image2>p{
+    color: white;
+    font-style: bold;
+}
+.image1>img{
+width: 100%;
+border-radius: 1rem;
+}
+.image3{
+    position: absolute;
+    left:40%;
+    padding: 0.4rem;;
+    background-color: white;
+    border-radius: 1rem;
+}
+.image3>img{
+    width: 300px;
+    border-radius: 1rem;
+}
+
+
+/* hero right */
+.about-university{
+    display: flex;
+    gap:10px;
+}
+.about-university,i,h4{
+color:#0478e2;
+}
+.hero-right>h1{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.hero-right>p{
+    color: gray;
+    margin-top: 10px;
+}
+.hero-bottom{
+    display: flex;
+    gap:5%;
+    margin-top: 1rem;
+}
+.hero-bottom>img{
+    width:25%;
+    border-radius: 0.5rem;
+}
+.aboutMoreBtn{
+    padding: 0.5rem 1rem;
+    background-color: #0478e2;
+    color: white;
+    border:none;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+}
+
+/* circles */
+
+.big-circle{
+    position:absolute;
+   bottom:20%;
+   left:5%;
+    height: 100px;
+    width:100px;
+    border:3px solid #0478e2;
+     border-radius: 100%;
+}
+.small-circle{
+    position:absolute;
+   bottom:22%;
+   left:10%;
+    height: 50px;
+    width:50px;
+    border:6px solid red;
+     border-radius: 100%;
+}
