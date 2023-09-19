@@ -8,13 +8,18 @@
 
 
 
-.container{
-    height: 500px;
- border: 2px solid red;
-display:grid;
-grid-template-columns: 400px 400px 400px;
-row-gap: 50px;;
-column-gap: 50px;
+.one{
+    height:100px;
+    width:100px;
+    background-color: aquamarine;
+   animation: magic 2s  infinite  both;
+    border-radius: 100%;
+    border:2px solid black;
+}
+
+@keyframes magic{
+from{border:2px solid black}
+to{border:10px solid green}
 }
 
 
